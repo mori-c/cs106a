@@ -1,4 +1,5 @@
-# Stanford CS106A
+# Directory 
+Placeholder
 
 <br>
 
@@ -12,11 +13,3 @@ Resources
 - [Origin](https://github.com/mori-c/cs106a/blob/master/res/origin/README.md)
 
 
-
-<br>
-
----
-
-<br>
-
-[Karel Bot](https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html)
