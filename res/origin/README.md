@@ -4,3 +4,12 @@
 - [Handout](https://web.stanford.edu/class/cs106a/)
 - [Lecture Materials](https://web.stanford.edu/class/cs106a/lectures/)
 - [Forum](https://us.edstem.org/courses/325/discussion/)
+
+
+<br>
+
+---
+
+<br>
+
+Resources  :  [Code in Place](https://github.com/mori-c/cs106a/blob/master/res/codeinplace/README.md) | [Origin](https://github.com/mori-c/cs106a/blob/master/res/origin/README.md)
