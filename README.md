@@ -1,5 +1,6 @@
 # Stanford CS106A
----
+
+<br>
 
 - [Syllabus Handout](https://compedu.stanford.edu/codeinplace/v1/#/handout/info)
 - [Schedule](https://compedu.stanford.edu/codeinplace/v1/#/course/schedule)
