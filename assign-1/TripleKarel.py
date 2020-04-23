@@ -38,44 +38,25 @@ def main():
 '''
 Helper Functions
 '''
+# put beepers against current line and move around corner
 def fencepost():
     while left_is_blocked():
-        turn_left()
-        turn_left()
+        half_turn()
         put_beeper()
-        turn_left()
-        turn_left()
+        half_turn()
         move()
     if left_is_clear():
         turn_left()
         move()
-        # if facing_east:
-        #    put_corner_beeper()
 
-        # if front_is_blocked():
-        #     turn_left()
-        #     beeper()
-        #     turn_left()
-        #     turn_left()
-        #     move()
-
+# reposition karel ready for fenceposting
 def back_into_postion():
-    turn_left()
-    turn_left()
+    half_turn()
     move()
 
-# def clear_corner():
-#     while right_is_clear():
-#         turn_left()
-#         move()
-#
-# def put_corner_beeper():
-#     turn_left()
-#     beeper()
-#     turn_left()
-#     turn_left()
-#     move()
-
+def half_turn():
+    turn_left()
+    turn_left()
 
 
 # There is no need to edit code beyond this point
