@@ -17,7 +17,51 @@ def main():
     starting to write your own code. You should also delete this
     comment and replace it with a better, more descriptive one.
     """
-    pass
+
+    # ascent
+    turn_left()
+    # while front_is_clear():
+    #     put_beeper()
+    #     move()
+    #     if beepers_present():
+    #         move()
+
+    while no_beepers_present():
+        put_beeper()
+        move()
+        if beepers_present():
+            move()
+    #         # while front_is_blocked():
+    #         #     move()
+
+    # turn around
+    turn_left()
+    turn_left()
+
+    # descend
+    while front_is_clear():
+        move()
+    turn_left()
+
+    # to next pillar
+    for i in range(4):
+        move()
+
+    # ascend
+    turn_left()
+    # while front_is_clear():
+    # # while no_beepers_present():
+    #     put_beeper()
+    #     move()
+    #     if beepers_present():
+    #         move()
+    while no_beepers_present():
+        put_beeper()
+        move()
+        if beepers_present():
+            move()
+
+
 
 
 # There is no need to edit code beyond this point
