@@ -20,18 +20,30 @@ def main():
 
     # pillar 1
     odd_pillar()
+    # turn_left()
+    # ascend_with_no_beeper()
+    # descend_with_no_beeper()
     move_to_next_pillar()
 
     # pillar 2
     even_pillar()
+    # turn_left()
+    # ascend_with_starter_beeper()
+    # descend_with_no_beeper()
     move_to_next_pillar()
 
     # pillar 3
     odd_pillar()
+    # turn_left()
+    # ascend_with_no_beeper()
+    # descend_with_no_beeper()
     move_to_next_pillar()
 
     # pillar 4
     even_pillar()
+    # turn_left()
+    # ascend_with_starter_beeper()
+    # descend_with_starter_beeper()
 
 
 

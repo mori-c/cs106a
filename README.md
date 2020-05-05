@@ -11,7 +11,8 @@
 <br>
 
 ## Lecture Exercises
----
+
+
 | Lecture |                | 01                    | 02                |
 | :-----: | :------------- | :-------------------- | :---------------- |
 | 02      | Control Flow 1 | [SteepleChaseKarel]() | -                 |
@@ -27,11 +28,10 @@
 <br>
 
 ## Assignments
----
 
 | No. | Assignment      | 01              | 02                  | 03                                |
 | :----- | :-------------- | --------------- | :------------------ | :-------------------------------- |
-| 01     | Karel           | [Tripple]()     | [StoneMason]()      | [Midpoint]()                      |
+| 01     | Karel           | ✅ [Tripple]()   | ✅ [StoneMason]()    | ➖ [Midpoint]()                    |
 | 02     | KhansoleAcademy | [Sandcastles]() | [KhansoleAcademy]() | [TheAncientGameofNimm]()          |
 | 03     | Images          | [Filter]()      | [ForestFlames]()    | [Reflection]() / [WarholEffect]() | 
 
@@ -39,17 +39,17 @@
 <br>
 
 ## Sections
----
 
 | No | Handouts        | 01                | 02                  | 03 |
 | -- | --------------- | :---------------- | :------------------ | :- |
 | 01 | Karel the Robot | [HospitalKarel]() | -                   | -  |
 | 02 | Intro           | [MoonWeight]()    | [8bal]()            | -  |
-| 03 | Foundations     | [DogYears]()      | [RunningTotal]()    |    |
-| 03 | Social Science  | [ControlPhase]()  | [ExperimentPhase]() |    |
-| 03 | Animals: Cute   | [ControlPhase]()  | [ExperimentPhase]() |    |
-| 03 |                 | []()              | []()                |    |
+| 03 | Foundations     | [DogYears]()      | [RunningTotal]()    | -  |
+| 03 | Social Science  | [ControlPhase]()  | [ExperimentPhase]() | -  |
+| 03 | Animals: Cute   | [ControlPhase]()  | [ExperimentPhase]() | -  |
+| 04 | TBA             | []()              | []()                | -  |
 
+<br>
 <br>
 
 Resources  :  [Code in Place](https://github.com/mori-c/cs106a/blob/master/res/codeinplace/README.md) | [Origin](https://github.com/mori-c/cs106a/blob/master/res/origin/README.md)
