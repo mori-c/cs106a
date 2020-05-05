@@ -16,7 +16,7 @@
 | Lecture |                | 01                    | 02                |
 | :-----: | :------------- | :-------------------- | :---------------- |
 | 02      | Control Flow 1 | [SteepleChaseKarel]() | -                 |
-| 03      | Decomposition  | [Mountain]()          | [RhoombaKarel]()  |
+| 03      | Decomposition  | [Mountain]()          | [RhoombaKarel]()  | 
 | 04      | Variables      | [HelloWorld]()        | [add2numbers]()   |
 | 05      | Expressions    | [Constants]()         | [DiceSimulator]() |
 | 06      | Control Flow 2 | [GuessMyNumber]()     | [GameShow]()      |

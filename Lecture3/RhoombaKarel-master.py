@@ -1,4 +1,4 @@
-from karel.stanfordkarel import * 
+from karel.stanfordkarel import *
 
 """
 File: RhoombaKarel.py
