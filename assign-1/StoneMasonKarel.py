@@ -18,21 +18,14 @@ def main():
     comment and replace it with a better, more descriptive one.
     """
 
-    # ascent
+    # ascend
     turn_left()
-    # while front_is_clear():
-    #     put_beeper()
-    #     move()
-    #     if beepers_present():
-    #         move()
 
     while no_beepers_present():
         put_beeper()
         move()
-        if beepers_present():
+        while beepers_present():
             move()
-    #         # while front_is_blocked():
-    #         #     move()
 
     # turn around
     turn_left()
@@ -41,25 +34,39 @@ def main():
     # descend
     while front_is_clear():
         move()
-    turn_left()
+
 
     # to next pillar
-    for i in range(4):
-        move()
+    while front_is_blocked():
+        turn_left()
+        for i in range(4):
+            move()
 
     # ascend
     turn_left()
-    # while front_is_clear():
-    # # while no_beepers_present():
-    #     put_beeper()
-    #     move()
-    #     if beepers_present():
-    #         move()
-    while no_beepers_present():
-        put_beeper()
+
+    while beepers_present():
         move()
-        if beepers_present():
+        if no_beepers_present():
+            put_beeper()
             move()
+
+    # turn around
+    turn_around()
+
+    # descend
+
+
+'''
+Helper Functions
+'''
+
+def turn_around():
+    for i in range(2):
+        turn_left()
+    move()
+
+
 
 
 
