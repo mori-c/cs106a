@@ -13,7 +13,14 @@ def main():
     your own code. You should also delete this comment and replace
     it with a better, more descriptive one.
     """
-    pass
+    print('Let\'s start a program. You\'ll be entering 2 numbers where one number subtracts from another.')
+    num1 = input('Enter first number: ')
+    num1 = int(num1)
+    num2 = input('Enter second number: ')
+    num2 = int(num2)
+    total = num1 - num2
+    total = str(total)
+    print('Your result is ' + total)
 
 
 # This provided line is required at the end of a Python file
