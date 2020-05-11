@@ -18,10 +18,11 @@ def main():
     min_random = 0
     max_random = 100
 
-    for i in range(10):
-        num_random = random.randint(min_random, max_random)
-        print(num_random)
+    def num_random():
+        for i in range(10):
+            print(random.randint(min_random, max_random))
 
+    num_random()
 
 # This provided line is required at the end of a Python file
 # to call the main() function.
