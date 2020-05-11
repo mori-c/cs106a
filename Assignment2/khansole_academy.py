@@ -1,16 +1,18 @@
 import random
 
-total = 0
-pass_count = []
+pass_count = 0
 
 def main():
-  play_game()
-
+  question()
+  answer()
+  validate()
+  game_check()
 
 '''
 Helper Functions
 '''
 def question():
+  global total
   min = 1
   max = 99
   num1 = random.randint(min, max)
@@ -20,45 +22,30 @@ def question():
   print(total)
 
 def answer():
+  global input_answer
   input_answer = int(input('Your answer: '))
   print(input_answer)
 
-
-def correct():
+def validate():
+  global pass_count
+  # correct
   if total == input_answer:
-    # if True, add 'passed' into pass_count list
     pass_count += 1
-    print('\n Correct! You\'ve gotten -' + str(count_pass()) + '- correct in a row.')
-
-def incorrect():
-  if not (int(total) == int(input_answer)):
+    print('\n Correct! You\'ve gotten ' + str(pass_count) + ' correct in a row. \n \n')
+  #incorrect, if total != input_answer
+  else:
     pass_count = 0
     print('Incorrect. The expected answer is ' + str(total))
 
-def validate():
-  if correct():
-    pass_check()
-  else:
-    incorrect()
-    print(failed)
-
 def game_check():
-    if (pass_check == 3):
+    if (pass_count == 3):
       print('Congratulations! You mastered addition.')
     else:
-      # print('not gameover yet')
       play_game()
 
 def play_game():
   main()
-  # question()
-  # answer()
-  # validate()
-  # game_check()
-
-
-
 
 
 if __name__ == '__main__':
-    main()
+  main()
