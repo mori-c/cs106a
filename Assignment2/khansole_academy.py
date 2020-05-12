@@ -31,11 +31,11 @@ def validate():
   # correct
   if total == input_answer:
     pass_count += 1
-    print('\n Correct! You\'ve gotten ' + str(pass_count) + ' correct in a row. \n \n')
+    print('Correct! You\'ve gotten ' + str(pass_count) + ' correct in a row.')
   #incorrect, if total != input_answer
   else:
     pass_count = 0
-    print('Incorrect. The expected answer is ' + str(total))
+    print('Incorrect! The expected answer is ' + str(total))
 
 def game_check():
     if (pass_count == 3):

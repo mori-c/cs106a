@@ -7,6 +7,9 @@ range from MIN_RANDOM to MAX_RANDOM, inclusive
 
 import random
 
+NUM_RANDOM = 10
+MIN_RANDOM = 0
+MAX_RANDOM = 100
 
 def main():
     """
@@ -15,14 +18,12 @@ def main():
     your own code. You should also delete this comment and replace
     it with a better, more descriptive one.
     """
-    min_random = 0
-    max_random = 100
 
-    def num_random():
-        for i in range(10):
-            print(random.randint(min_random, max_random))
+    def random_numbers():
+        for i in range(NUM_RANDOM):
+            print(random.randint(MIN_RANDOM, MAX_RANDOM))
 
-    num_random()
+    random_numbers()
 
 # This provided line is required at the end of a Python file
 # to call the main() function.

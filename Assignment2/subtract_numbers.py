@@ -14,13 +14,10 @@ def main():
     it with a better, more descriptive one.
     """
     print('This program subtracts one number from another.')
-    num1 = input('Enter first number: ')
-    num1 = int(num1)
-    num2 = input('Enter second number: ')
-    num2 = int(num2)
-    total = str(num1 - num2)
-    # total = str(total)
-    print('The result is ' + total)
+    num1 = float(input('Enter first number: '))
+    num2 = float(input('Enter second number: '))
+    total = (num1 - num2)
+    print('The result is {0:.3}'.format(str(total)))
 
 
 # This provided line is required at the end of a Python file

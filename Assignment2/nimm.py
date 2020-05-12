@@ -12,7 +12,7 @@ def main():
 		for i in player_1:
 			remainder = max_count - sum(stones_1)
 
-			print('There are {} stones left'.format(max_count - sum(stones_1)))
+			print('There are {} stones left \n'.format(max_count - sum(stones_1)))
 			input_answer = int(input('{} would you like to remove 1 or 2 stones? '.format(i)))
 			stones_1.append(input_answer)
 			# print(stones_1)
@@ -24,7 +24,7 @@ def main():
 		for i in player_2:
 			remainder = max_count - sum(stones_2)
 
-			print('There are {} stones left'.format(max_count - sum(stones_2)))
+			print('There are {} stones left \n'.format(max_count - sum(stones_2)))
 			input_answer = int(input('{} would you like to remove 1 or 2 stones? '.format(i)))
 			stones_2.append(input_answer)
 			# print(stones_2)
